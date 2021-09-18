@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Reey Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reey Regular'), url('/Reey-Regular.woff') format('woff');
+}
+
+:root {
+  --clr-white: #fff;
+  --clr-gray: #e9e9e9;
+  --clr-dark: #222328;
+  --clr-darkgray: #343434;
+  
+
+  --ff-title: 'Reey Regular', sans-serif;
+  --ff-primary: 'Open Sans', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+@import url("/tailwindversion/css/fontstyles.css");
